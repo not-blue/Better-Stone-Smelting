@@ -1,4 +1,4 @@
-Pack name:  
-Pack URL:   
+Pack name:  Better Stone Smelting
+Pack URL:   https://modrinth.com/datapack/improved-stone-smelting/
 Author:     Nicole / notblue / nicoleisnotblue
 Author URL: https://modrinth.com/user/notblue   
