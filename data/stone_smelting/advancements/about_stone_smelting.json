@@ -3,8 +3,8 @@
     "icon": {
       "item": "minecraft:cobblestone_stairs"
     },
-    "title": "Improved Stone Smelting",
-    "description": "Smelt cobblestone slabs and stairs into their stone counterparts. Smelt stone slabs into smooth stone slabs.",
+    "title": "Better Stone Smelting",
+    "description": "Smelt cobblestone slabs and stairs into their stone counterparts; stone slabs into smooth stone slabs; and red and regular sandstone stairs and slabs into their smooth counterparts.",
     "show_toast": false,
     "announce_to_chat": false
   },
