@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_block_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stoneworking:stone_to_cobble_stonecutting"
+      }
+    },
+    "has_stairs_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stoneworking:stone_stairs_to_cobble_stairs_stonecutting"
+      }
+    },
+    "has_slab_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stoneworking:stone_slab_to_cobble_slab_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block_recipe",
+      "has_stairs_recipe",
+      "has_slab_recipe",
+      "has_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stoneworking:stone_to_cobble_stonecutting",
+      "stoneworking:stone_slab_to_cobble_slab_stonecutting",
+      "stoneworking:stone_stairs_to_cobble_stairs_stonecutting"
+    ]
+  }
+}

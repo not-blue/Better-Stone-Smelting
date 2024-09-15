@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "building",
+  "ingredient": {
+    "item": "minecraft:stone_slab"
+  },
+  "result": "minecraft:cobblestone_slab",
+  "count": 1
+}

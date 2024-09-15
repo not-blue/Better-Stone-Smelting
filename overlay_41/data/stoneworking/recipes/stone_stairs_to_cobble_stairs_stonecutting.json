@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "building",
+  "ingredient": {
+    "item": "minecraft:stone_stairs"
+  },
+  "result": {
+    "id": "minecraft:cobblestone_stairs"
+  }
+}
