@@ -8,8 +8,6 @@ You can smelt cobblestone blocks to stone blocks and stone to smooth stone block
 - Smelt sandstone slabs into smooth sandstone slabs
 - Smelt red sandstone stairs into smooth red sandstone stairs
 - Smelt red sandstone slabs into smooth red sandstone slabs
-
-**New!** More recipes:
 - Convert stone blocks, stairs and slabs to their cobblestone versions with a stonecutter
 - Convert deepslate into cobbled deepslate with a stonecutter
 
