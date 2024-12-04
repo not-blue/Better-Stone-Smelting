@@ -1,4 +1,4 @@
-# Better Stone Smelting
+# Better Stoneworking
 
 You can smelt cobblestone blocks to stone blocks and stone to smooth stone blocks, so why not stairs and slabs? This pack adds shortcut recipes (and corresponding recipe unlocks):
 - Smelt cobblestone stairs into stone stairs
