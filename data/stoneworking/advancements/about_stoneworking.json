@@ -4,7 +4,7 @@
       "item": "minecraft:cobblestone_stairs"
     },
     "title": "Better Stoneworking",
-    "description": "More recipes for converting stone, sandstone and deepslate to their respective variants.",
+    "description": "More recipes for converting stone, sandstone and deepslate to their respective variants for Minecraft 1.20-1.20.6.",
     "show_toast": false,
     "announce_to_chat": false
   },
