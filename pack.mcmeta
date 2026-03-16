@@ -1,16 +1,7 @@
 {
   "pack": {
-    "min_format": [88, 0],
+    "min_format": [101, 0],
     "max_format": [999, 0],
     "description": "More cobblestone, stone, sandstone and deepslate recipes"
-  },
-  "overlays": {
-    "entries": [
-      {
-        "min_format": [101, 0],
-        "max_format": [999, 0],
-        "directory": "overlay_26-1"
-      }
-    ]
   }
 }
