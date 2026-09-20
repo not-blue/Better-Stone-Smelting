@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cobblestone": {
+    "has_stone_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cobblestone_slab"
+            "items": "minecraft:stone_slab"
           }
         ]
       }
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stoneworking:stone_slab_from_cobblestone_slab_smelting"
+        "recipes": "stoneworking:stone_to_smooth_slab"
       }
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_cobblestone"
+      "has_stone_slab"
     ]
   ],
   "rewards": {
     "recipes": [
-      "stoneworking:stone_slab_from_cobblestone_slab_smelting"
+      "stoneworking:stone_to_smooth_slab"
     ]
   }
 }

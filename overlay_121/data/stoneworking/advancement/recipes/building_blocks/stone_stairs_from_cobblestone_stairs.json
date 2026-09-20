@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sandstone_stairs": {
+    "has_cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:red_sandstone_stairs"
+            "items": "minecraft:cobblestone_stairs"
           }
         ]
       }
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stoneworking:smooth_red_sandstone_stairs_from_smelting"
+        "recipes": "stoneworking:cobble_to_stone_stairs"
       }
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_sandstone_stairs"
+      "has_cobblestone"
     ]
   ],
   "rewards": {
     "recipes": [
-      "stoneworking:smooth_red_sandstone_stairs_from_smelting"
+      "stoneworking:cobble_to_stone_stairs"
     ]
   }
 }

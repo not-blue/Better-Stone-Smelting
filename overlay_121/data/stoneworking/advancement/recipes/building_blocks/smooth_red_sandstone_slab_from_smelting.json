@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stone_slab": {
+    "has_sandstone_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stone_slab"
+            "items": "minecraft:red_sandstone_slab"
           }
         ]
       }
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stoneworking:stone_to_smooth_slab"
+        "recipes": "stoneworking:smooth_red_sandstone_slab_from_smelting"
       }
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_stone_slab"
+      "has_sandstone_slab"
     ]
   ],
   "rewards": {
     "recipes": [
-      "stoneworking:stone_to_smooth_slab"
+      "stoneworking:smooth_red_sandstone_slab_from_smelting"
     ]
   }
 }

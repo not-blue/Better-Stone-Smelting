@@ -11,16 +11,22 @@
         ]
       }
     },
+    "has_the_block_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "stoneworking:stone_to_cobble_stonecutting"
+      }
+    },
     "has_the_stairs_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stoneworking:stone_stairs_to_cobble_stairs_stonecutting"
+        "recipes": "stoneworking:stone_stairs_to_cobble_stairs_stonecutting"
       }
     },
     "has_the_slab_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stoneworking:cobblestone_slab_from_stone_slab_stonecutting"
+        "recipes": "stoneworking:stone_slab_to_cobble_slab_stonecutting"
       }
     }
   },
@@ -34,7 +40,8 @@
   ],
   "rewards": {
     "recipes": [
-      "stoneworking:cobblestone_slab_from_stone_slab_stonecutting",
+      "stoneworking:stone_to_cobble_stonecutting",
+      "stoneworking:stone_slab_to_cobble_slab_stonecutting",
       "stoneworking:stone_stairs_to_cobble_stairs_stonecutting"
     ]
   }

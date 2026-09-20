@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cobblestone": {
+    "has_deepslate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cobblestone_stairs"
+            "items": "minecraft:deepslate"
           }
         ]
       }
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stoneworking:stone_stairs_from_cobblestone_stairs_smelting"
+        "recipes": "deepslate_to_cobbled_deepslate_stonecutting"
       }
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_cobblestone"
+      "has_deepslate"
     ]
   ],
   "rewards": {
     "recipes": [
-      "stoneworking:stone_stairs_from_cobblestone_stairs_smelting"
+      "stoneworking:deepslate_to_cobbled_deepslate_stonecutting"
     ]
   }
 }
