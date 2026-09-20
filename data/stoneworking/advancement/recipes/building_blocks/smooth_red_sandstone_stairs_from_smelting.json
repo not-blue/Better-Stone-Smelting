@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sandstone_stairs": {
+    "has_red_sandstone_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sandstone_stairs"
+      "has_red_sandstone_stairs"
     ]
   ],
   "rewards": {

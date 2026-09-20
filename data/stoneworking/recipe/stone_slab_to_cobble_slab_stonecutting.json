@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "category": "building",
-  "ingredient": "minecraft:stone_slab",
-  "result": {
-    "id": "minecraft:cobblestone_slab"
-  }
-}
